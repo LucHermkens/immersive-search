@@ -1,6 +1,5 @@
 #urlbar[open][zen-floating-urlbar="true"] {
-    top: 50% !important;
-    transform: translateX(calc(var(--zen-sidebar-width, 273px) / 2)) translateY(-50%) !important;
+    transform: translateX(calc(var(--zen-sidebar-width, 300px) / 2 * -1)) !important;
 }
 
 .browserContainer {
